@@ -80,7 +80,7 @@ public class SalaController {
         view.addObject("sessoes", sessaoDao.buscaSessoesDaSala(sala));
 
         return view;
-    }
+    } 
 
     @GetMapping("/admin/sala/{id}/lugares/")
     public ModelAndView listaLugares(@PathVariable("id") Integer id) {
