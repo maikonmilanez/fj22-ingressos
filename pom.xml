@@ -10,6 +10,12 @@
 			<email>maikonmilanez@github.com</email>
 		</developer>
 	</developers>
+
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.12</version>
+	</dependency>
 					
     <groupId>br.com.caelum</groupId>
     <artifactId>ingresso</artifactId>
